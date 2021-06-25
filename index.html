@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Docker Web App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="index.css">
+     
+</head>
+
+<body>
+<div class="sidebar" id="mySidebar">
+  <div class="sidebar-output">
+    <button class="sidebar-close-btn"  onclick="sidebar_close()">&times;</button>
+    <h2><b>Output</b></h2>
+  </div>
+  <p id= "myOut">Waiting for output .....</p>
+</div>
+
+<div class="main" id="main">
+  <input type="text" id="input_cmd" name="input" placeholder="Enter the command"><br><br>
+  <button class="submit-btn" id="submit-btn">Submit</button>
+</div> 
+<script src="index.js"></script>
+</body>
